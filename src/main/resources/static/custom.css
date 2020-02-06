@@ -3,7 +3,10 @@ a.navbar-brand > img{
 	margin: 0;
 
 }
-
+.card-title {
+	font-weight: 400;
+	font-family: 'Helvetica Neue';
+}
 #backgroundImg {
 	margin: 0;
 	padding: 0;
@@ -23,6 +26,21 @@ a.navbar-brand > img{
     display: inline-block;
 }
 
-.cardtext {
+
+#card-background {
+	background-color: pink;
+	display: flex;
+	
+}
+
+#card-services {
+	margin: auto;
+}
+
+
+
+.card-body {
 	text-align: center;
+	font-family: 'Helvetica Neue';
+	
 }
