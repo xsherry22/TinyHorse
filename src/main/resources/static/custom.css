@@ -17,6 +17,23 @@
 	
 }
 
+a.navbar-brand {
+	padding: 0%;
+	height: 80px;
+	overflow: auto;
+	display: inline-block;  
+}
+
+#nav-logo {
+	position: absolute;
+	top:0%;
+	left:5%;
+	bottom: 30%;
+	
+	
+	}
+
+
 li .active {
   text-decoration: underline;
   color: white;
