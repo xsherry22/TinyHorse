@@ -7,8 +7,8 @@
 }
 
 #backgroundImg {
-	margin: 0;
-	padding: 0;
+	margin: 0%;
+	padding: 0%;
 }
 
 #carousel {
@@ -61,9 +61,9 @@
 }
 
 #card-quotes {
-	margin: auto;
-	padding-left: 70px;
-	padding-right: 100px;
+	margin-top: 3%;
+	padding-left: 10%;
+	padding-right: 10%;
 	
 }
 
@@ -85,5 +85,18 @@ div > .card {
 .card-footer {
 	border: none;
 	
+}
+
+#footer-card {
+	border:none;
+	font-family: big-caslon-fb, serif;
+	font-size: 45px;
+	margin-top: 5%;
+
+}
+
+#contact {
+	margin-left: 10%;
+	margin-top: 2%;
 }
 
