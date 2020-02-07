@@ -1,12 +1,9 @@
-a.navbar-brand > img{
 
-	margin: 0;
-
-}
 .card-title {
 	font-weight: 400;
 	font-family: 'Helvetica Neue';
 }
+
 #backgroundImg {
 	margin: 0;
 	padding: 0;
@@ -28,19 +25,30 @@ a.navbar-brand > img{
 
 
 #card-background {
-	background-color: pink;
+	background-color: #ffcde3;
 	display: flex;
-	
+	padding: 0px;
 }
 
-#card-services {
+.panel-heading {
+       background: #ffcde3;
+       padding-top: 70px;
+       padding-bottom: 30px;
+    }
+
+#card-services, #card-row {
 	margin: auto;
 }
 
 
-
-.card-body {
+.card-body, .panel-title {
 	text-align: center;
 	font-family: 'Helvetica Neue';
+	background-color: transparent;
+	border: none;
 	
+}
+
+.card-body > h2 {
+	padding-top: 30px;
 }
