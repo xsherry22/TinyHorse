@@ -1,14 +1,44 @@
 
-.card-title {
+.card-title1 {
 	font-weight: 400;
 	font-family: big-caslon-fb, serif;
 	font-style: normal;
-	text-transform: none !important;
+	font-size: 70px;
+	font-color: #f376e0;
+	text-align: left;
+	margin-right: 350px;
 }
+
+
 
 #backgroundImg {
 	margin: 0%;
 	padding: 0%;
+	
+}
+
+li .active {
+  text-decoration: underline;
+  color: white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 #carousel {
@@ -69,7 +99,6 @@
 
 div > .card {
 	margin: auto;
-	padding-top: 50px;
 	border: none;
 	background-color: transparent;
 }
@@ -104,8 +133,9 @@ div > .card {
 	padding-right: 100px;
 	margin-right: 70%;
 	
-	
 }
+
+
 
 p.location {
 	font-family: big-caslon-fb, serif;
